@@ -1,2 +1,10 @@
 CREATE DATABASE IF NOT EXISTS test;
 USE test
+
+CREATE TABLE libros(
+    id INT(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    title TEXT NOT NULL,
+    descripcion TEXT NOT NULL,
+    autor TEXT NOT NULL,
+    paginas INT(5) NOT NULL
+);
