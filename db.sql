@@ -22,6 +22,5 @@ CREATE TABLE IF NOT EXISTS prestamos(
     fecha_prestamo DATE NOT NULL DEFAULT NOW(),
     fecha_devolucion DATE NOT NULL DEFAULT NOW(),
     libros TEXT NOT NULL,
-    bibliotecario TEXT NOT NULL
 )
 
