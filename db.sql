@@ -24,3 +24,4 @@ CREATE TABLE IF NOT EXISTS prestamos(
     libros TEXT NOT NULL,
     bibliotecario TEXT NOT NULL
 )
+
